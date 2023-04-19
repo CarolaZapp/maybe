@@ -1,0 +1,208 @@
+/* desktop */
+
+.bgimg-one,
+.bgimg-two,
+.bgimg-three {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-one {
+  background-image: url("../images/IMG_4309.JPG");
+  min-height: 100vh;
+}
+
+.bgimg-two {
+  background-image: url("../images/IMG_4356.JPG");
+  min-height: 400px;
+}
+
+.bgimg-three {
+  background-image: url("../images/IMG_4356sand.JPG");
+  min-height: 400px;
+}
+
+.caption-one {
+  position: absolute;
+  left: 0%;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+  color: var(--font-one);
+  font-family: Architects Daughter;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.caption-scroll {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  background-color: transparent;
+  color: var(--font-one);
+}
+
+.caption-bottom {
+  position: absolute;
+  left: 0%;
+  bottom: 3%;
+  width: 100%;
+  text-align: center;
+  color: var(--font-one);
+  font-family: Architects Daughter;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+}
+
+.textBox-big {
+  color: var(--font-one);
+  background-color: var(--bg-two);
+  font-family: Architects Daughter;
+  text-align: center;
+  padding: 3rem 4rem;
+  font-size: 2rem;
+}
+
+.life:hover {
+  color: var(--font-three);
+  transition: 1s;
+  transform: rotate(360deg);
+}
+
+.text {
+  color: var(--font-two);
+  background-color: var(--bg-one);
+  text-align: center;
+  padding: 2rem 4rem;
+  text-align: left;
+  font-family: Architects Daughter;
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin:0;
+}
+
+.contact-item{
+  display: flex;
+  text-transform: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content:space-around;
+  margin:0;
+}
+
+.icons {
+  color: var(--font-two);
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+.mailto {
+  color: var(--font-two);
+  padding-top: 1.5rem;
+}
+
+.mailto:hover {
+  color: var(--font-three);
+}
+
+.phone {
+  padding-right: 1rem;
+}
+
+.icons:hover,
+.phone:hover {
+  color: var(--font-three);
+}
+
+.passion {
+  font-size: 1rem;
+  letter-spacing: 0cm;
+  padding-bottom: 2rem;
+}
+
+
+/* Turn off parallax scrolling */
+/*  for tablets and phones (large)*/
+@media screen and (max-width: 1023px) {
+  .bgimg-one,
+  .bgimg-two,
+  .bgimg-three {
+    background-attachment: scroll;
+  }
+  .caption-one {
+    font-size: 3rem;
+  }
+  .caption-scroll {
+    top: 15%;
+    font-size: 1.5rem;
+  }
+  .caption-bottom {
+    font-size: 2rem;
+  }
+ 
+  .textBox-big {
+    font-size: 1.5rem;
+  }
+
+  .text{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .icons {
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .mailto {
+    padding-top: 1rem;
+  }
+
+  .phone {
+    padding-right: 0.5rem;
+  }
+
+}
+
+/* phones */
+@media screen and (max-width: 694px) {
+  .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .caption-one {
+    font-size: 2rem;
+  }
+
+  .caption-scroll {
+    font-size: 1rem;
+  }
+
+  .caption-bottom {
+    font-size: 1.5rem;
+  }
+}
+
+

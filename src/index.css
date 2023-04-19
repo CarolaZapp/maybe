@@ -1,0 +1,74 @@
+:root {
+  /* background colors */
+  --bg-one: rgb(16,40,100);
+  --bg-two: white;
+  --bg-three: rgb(204,20,23);
+  --bg-four: rgb(3,141,175);
+  
+
+  /* font colors */
+  --font-one: rgb(16,40,100);
+  --font-two: white;
+  --font-three: rgb(204,20,23);
+  --font-four: rgb(3,141,175);
+
+}
+
+
+/* architects-daughter-regular - latin */
+@font-face {
+  font-family: "Architects Daughter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/architects-daughter-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/architects-daughter-v18-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/architects-daughter-v18-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/architects-daughter-v18-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("./fonts/architects-daughter-v18-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/architects-daughter-v18-latin-regular.svg#ArchitectsDaughter")
+      format("svg"); /* Legacy iOS */
+}
+
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v25-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/montserrat-v25-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v25-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v25-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v25-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v25-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  /*  */
+  min-width: 320px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
