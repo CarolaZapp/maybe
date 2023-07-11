@@ -36,11 +36,11 @@ const Landing = () => {
           </p>
           <div className="contact">
             <div className="contact-item">
-              <h1 className="icons"> <BsFillPersonFill/> </h1>
+              <h1 className="icons-one"> <BsFillPersonFill/> </h1>
               <p>Carola Zapp</p>
             </div>
             <div className="contact-item">
-              <h1 className="icons"> <GrMail/> </h1>
+              <h1 className="icons-one"> <GrMail/> </h1>
               <a className="mailto" href="mailto:carola.zapp@gmx.net?subject=Contact from Maybe &body=Hallo Carola," target="_blank">carola.zapp@gmx.net</a> 
             </div>
             <div className="contact-item">
@@ -62,15 +62,15 @@ const Landing = () => {
           <div className="social-links">
           <p>
             <a href="https://www.github.com/CarolaZapp" target="_blank"
-              > <h1 className="icons"> <FaGithubSquare/> </h1> </a>
+              > <h1 className="icons-two"> <FaGithubSquare/> </h1> </a>
           </p>
           <p>
             <a href="https://www.linkedin.com/in/carola-zapp-profile" target="_blank"
-              > <h1 className="icons"> <FaLinkedin/> </h1> </a>
+              > <h1 className="icons-two"> <FaLinkedin/> </h1> </a>
           </p>
           <p>
             <a href="https://www.xing.com/profile/Carola_Zapp/cv" target="_blank"
-              > <h1 className="icons"> <FaXingSquare/> </h1> </a>
+              > <h1 className="icons-two"> <FaXingSquare/> </h1> </a>
           </p>
           </div>
       </div>

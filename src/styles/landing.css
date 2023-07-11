@@ -110,10 +110,15 @@ h1 {
   margin:0;
 }
 
-.icons {
+.icons-one,
+.icons-two {
   color: var(--font-two);
   font-size: 4rem;
   padding-right: 1rem;
+}
+
+.icons-two:hover {
+  color: var(--font-three);
 }
 
 .mailto {
@@ -169,7 +174,8 @@ h1 {
     padding: 1rem 2rem;
   }
 
-  .icons {
+  .icons-one,
+  .icons-two {
     font-size: 2.5rem;
     padding-right: 0.5rem;
   }
@@ -202,6 +208,10 @@ h1 {
 
   .caption-bottom {
     font-size: 1.5rem;
+  }
+
+  .phone {
+    padding-right: 1rem;
   }
 }
 
