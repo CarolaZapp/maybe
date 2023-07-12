@@ -134,8 +134,7 @@ h1 {
   padding-right: 1rem;
 }
 
-.icons:hover,
-.phone:hover {
+.icons:hover {
   color: var(--font-three);
 }
 
